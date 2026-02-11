@@ -9,7 +9,7 @@ xg_scaler = joblib.load("xg_scaler.pkl")
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/predict_page')
 def predict_page():
